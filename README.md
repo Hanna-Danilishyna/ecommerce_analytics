@@ -1,8 +1,8 @@
 Ecommerce Analytics Project
 
-📊 Project: End-to-End E-commerce Sales & Customer Analytics (Olist Dataset)
-💻 Tech Stack: PostgreSQL, Python (pandas, SQLAlchemy, matplotlib, seaborn), Tableau Public
-📂 Dataset: Olist Brazilian E-commerce Public Dataset
+Project: End-to-End E-commerce Sales & Customer Analytics (Olist Dataset)
+Tech Stack: PostgreSQL, Python (pandas, SQLAlchemy, matplotlib, seaborn)
+Dataset: Olist Brazilian E-commerce Public Dataset
 
 Project Overview
 ---------------------------
