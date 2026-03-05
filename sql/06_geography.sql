@@ -1,4 +1,4 @@
--- Выручка по штатам клиентов
+
 SELECT 
     c.customer_state,
     COUNT(DISTINCT o.order_id) AS total_orders,
@@ -10,7 +10,7 @@ JOIN customers c ON o.customer_id = c.customer_id
 GROUP BY c.customer_state
 ORDER BY total_revenue DESC;
 
--- Выручка по городам продавцов
+
 SELECT 
     s.seller_city,
     COUNT(DISTINCT oi.order_id) AS total_orders,
