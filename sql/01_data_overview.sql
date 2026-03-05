@@ -1,4 +1,4 @@
--- Общее количество записей
+
 SELECT 'customers' AS table_name, COUNT(*) AS total_rows FROM customers
 UNION ALL
 SELECT 'sellers', COUNT(*) FROM sellers
@@ -11,11 +11,11 @@ SELECT 'order_items', COUNT(*) FROM order_items
 UNION ALL
 SELECT 'payments', COUNT(*) FROM payments;
 
--- Уникальные клиенты и товары
+
 SELECT COUNT(DISTINCT customer_id) AS unique_customers FROM customers;
 SELECT COUNT(DISTINCT product_id) AS unique_products FROM products;
 
--- Дата первого и последнего заказа
+
 SELECT MIN(order_purchase_timestamp) AS first_order,
        MAX(order_purchase_timestamp) AS last_order
 FROM orders;
