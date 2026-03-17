@@ -141,7 +141,7 @@ Visualizations created:
 
 
 Project Structure
-
+```
 ecommerce_analytics/
 
 data/
@@ -164,7 +164,7 @@ python/
 
 
 README.md
-
+```
 How to Run the Project
 1. Clone the repository
 
